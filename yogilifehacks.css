@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 850px) {
+	.content_left {
+		display: none;
+	}
+
+    .tour_pic { 
+    	display: none; 
+   	}
+}
+
+@media screen and (min-width: 851px) {
+   	#content_left_small {
+		display: none;
+	}
+}
+
+html {
+	background-image: url("bilder/bakgrund.png");
+	min-height: 100%;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+	font-family: "Droid Sans", Helvetica Neue, Helvetica, sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+div.menu {
+	width: 100%;
+	text-align: center;
+}
+
+div.wrapper {    
+	background-color: black;
+	position: absolute;
+	max-width: 100%;
+	margin-bottom: 7%;
+}
+
+div.content {
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+div.footer {
+	position: absolute;
+	bottom: 0;
+	height: 7%;
+	width: 100%;
+	text-align: center;
+}
+
+div.inner {
+	background-color: rgba(248, 128, 23, 0.6);
+	padding: 1%;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+img.logo {
+	padding: 2%;
+}
+
